@@ -17,7 +17,7 @@
                             <div class="form-group">
                                 <x-text-input id="email" class="form-control" placeholder="Email" type="email"
                                               name="email" :value="old('email')" required autofocus
-                                              autocomplete="username"/>
+                                              autocomplete="username" style="background-color: #ffffff"/>
                                 <x-input-error :messages="$errors->get('email')" class="mt-2"/>
                             </div>
                             <div class="form-group">
@@ -25,7 +25,7 @@
                                               placeholder="Password"
                                               type="password"
                                               name="password"
-                                              required autocomplete="current-password"/>
+                                              required autocomplete="current-password" style="background-color: #ffffff"/>
 
                                 <x-input-error :messages="$errors->get('password')" class="mt-2"/>
                             </div>

@@ -7,3 +7,6 @@
 <script src="{{asset('plugins/morris/morris.min.js')}}"></script>
 <script src="{{asset('js/chart.morris.js')}}"></script>
 <script src="{{asset('js/script.js')}}"></script>
+<script src="{{asset('plugins/datatables/jquery.dataTables.min')}}"></script>
+<script src="{{asset('plugins/datatables/datatables.min')}}"></script>
+
