@@ -10,6 +10,12 @@
                         <li><a href="/products/create"> Add Product </a></li>
                     </ul>
                 </li>
+                <li class="submenu"> <a href="#"><i class="fas fa-suitcase"></i> <span> Categories </span> <span class="menu-arrow"></span></a>
+                    <ul class="submenu_class" style="display: none;">
+                        <li><a href="/categories"> Category List </a></li>
+                        <li><a href="/categories/create"> Add Category </a></li>
+                    </ul>
+                </li>
             </ul>
         </div>
     </div>

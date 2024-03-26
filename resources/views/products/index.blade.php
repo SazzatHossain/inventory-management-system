@@ -1,5 +1,4 @@
-{{--Product List--}}
-{{--<h1>Products</h1>--}}
+
 @extends('layouts.master')
 @section('content')
         <div class="page-header">
