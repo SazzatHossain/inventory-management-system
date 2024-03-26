@@ -13,11 +13,11 @@
                         <form method="POST" action="{{ route('register') }}">
                             @csrf
                             <div class="form-group">
-                                <x-text-input id="name" class="block mt-1 w-full" type="text" name="name" placeholder="Name" :value="old('name')" required autofocus autocomplete="name" />
+                                <x-text-input style="background-color: #ffffff" id="name" class="block mt-1 w-full" type="text" name="name" placeholder="Name" :value="old('name')" required autofocus autocomplete="name" />
                                 <x-input-error :messages="$errors->get('name')" class="mt-2" />
                             </div>
                             <div class="form-group">
-                                <x-text-input id="email" class="block mt-1 w-full" type="email" name="email" placeholder="Email" :value="old('email')" required autocomplete="username" />
+                                <x-text-input style="background-color: #ffffff" id="email" class="block mt-1 w-full" type="email" name="email" placeholder="Email" :value="old('email')" required autocomplete="username" />
                                 <x-input-error :messages="$errors->get('email')" class="mt-2" />
                             </div>
                             <div class="form-group">
@@ -25,14 +25,14 @@
                                               placeholder="Password"
                                               type="password"
                                               name="password"
-                                              required autocomplete="new-password" />
+                                              required autocomplete="new-password" style="background-color: #ffffff"/>
 
                                 <x-input-error :messages="$errors->get('password')" class="mt-2" />                            </div>
                             <div class="form-group">
                                 <x-text-input id="password_confirmation" class="block mt-1 w-full"
                                               placeholder="Confirm Password"
                                               type="password"
-                                              name="password_confirmation" required autocomplete="new-password" />
+                                              name="password_confirmation" required autocomplete="new-password" style="background-color: #ffffff"/>
 
                                 <x-input-error :messages="$errors->get('password_confirmation')" class="mt-2" />                            </div>
                             <div class="form-group mb-0">

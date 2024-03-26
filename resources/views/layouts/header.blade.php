@@ -85,7 +85,7 @@
                     </div>
                 </div>
                 <a class="dropdown-item" href="/profile">My Profile</a>
-                <a class="dropdown-item" href="settings.html">Account Settings</a>
+{{--                <a class="dropdown-item" href="settings.html">Account Settings</a>--}}
                 <form method="POST" action="{{ route('logout') }}">
                     @csrf
 
