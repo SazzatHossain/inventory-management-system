@@ -63,8 +63,8 @@
         <div class="row align-items-center">
             <div class="col">
                 <div class="mt-5">
-                    <h4 class="card-title float-left mt-2">Add Product</h4>
-                    <a href="/products" class="btn btn-Info float-right veiwbutton mt-2 text-white">Product List</a>
+                    <h4 class="card-title float-left mt-2">Add Category</h4>
+                    <a href="/categories" class="btn btn-Info float-right veiwbutton mt-2 text-white">Category List</a>
 
                 </div>
             </div>
@@ -78,10 +78,10 @@
                         <div class="col-lg-8">
                             <div class="card" style="min-height: 400px">
                                 <div class="card-body">
-                                    <h5 class="card-title">Add Product</h5>
+                                    <h5 class="card-title">Add Category</h5>
                                     <div class="row">
                                         <div class="col-md-12 col-lg-12 mt-4">
-                                            <form action="{{ route('products.store') }}" method="POST" enctype="multipart/form-data">
+                                            <form action="{{ route('categories.store') }}" method="POST" enctype="multipart/form-data">
                                                 @csrf
                                                 <div class="form-group">
                                                     <label for="name">Name</label>
@@ -92,53 +92,19 @@
                                                     <input type="text" name="code" id="code"
                                                            class="form-control" required>
                                                 </div>
-                                                <div class="form-group">
-                                                    <label for="category_id">Category:</label>
-                                                    <select name="category_id" id="category_id"
-                                                            class="form-control" required>
-                                                        @foreach($categories as $category)
-                                                            <option value="{{ $category->id }}">{{ $category->name }}</option>
-                                                        @endforeach
-                                                    </select>
-                                                </div>
-
-                                                <div class="form-group">
-                                                    <label for="cost">Cost:</label>
-                                                    <input type="number" name="cost" id="cost" step="0.01"
-                                                           class="form-control" required>
-                                                </div>
-
-                                                <div class="form-group">
-                                                    <label for="price">Price:</label>
-                                                    <input type="number" name="price" id="price" step="0.01"
-                                                           class="form-control" required>
-                                                </div>
-
-                                                <div class="form-group">
-                                                    <label for="brand_name">Brand Name:</label>
-                                                    <input type="text" name="brand_name" id="brand_name"
-                                                           class="form-control" required>
-                                                </div>
 
                                                 <div class="form-group">
                                                     <label for="image">Image:</label>
                                                     <input type="file" name="image" id="image"
-                                                    class="form-control" >
+                                                           class="form-control" >
                                                 </div>
-
-                                                <div class="form-group">
-                                                    <label for="quantity">Quantity:</label>
-                                                    <input type="number" name="quantity" id="quantity"
-                                                           class="form-control" required>
-                                                </div>
-
                                                 <div class="form-group">
                                                     <label for="description">Description:</label>
                                                     <textarea name="description" id="description"
                                                               class="form-control" required></textarea>
                                                 </div>
 
-                                                <button class="btn btn-primary" type="submit">Save Product</button>
+                                                <button class="btn btn-primary" type="submit">Save Category</button>
                                             </form>
                                         </div>
                                     </div>
