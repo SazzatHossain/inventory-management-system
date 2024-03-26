@@ -6,6 +6,7 @@
 <link rel="stylehseet" href="{{asset('cdn.oesmith.co.uk/morris-0.5.1.css')}}">
 <link rel="stylesheet" href="{{asset('plugins/morris/morris.css')}}">
 <link rel="stylesheet" href="{{asset('css/style.css')}}">
-<link rel="stylesheet" href="{{asset('plugins/datatables/datatables.min')}}">
+<link rel="stylesheet" href="//cdn.datatables.net/2.0.3/css/dataTables.dataTables.min.css">
+{{--<link rel="stylesheet" href="{{asset('plugins/datatables/datatables.min')}}">--}}
 
 

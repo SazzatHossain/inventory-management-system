@@ -6,8 +6,8 @@
                 <li class="list-divider"></li>
                 <li class="submenu"> <a href="#"><i class="fas fa-suitcase"></i> <span> Products </span> <span class="menu-arrow"></span></a>
                     <ul class="submenu_class" style="display: none;">
-                        <li><a href="#"> Product List </a></li>
-                        <li><a href="#"> Add Product </a></li>
+                        <li><a href="/products"> Product List </a></li>
+                        <li><a href="/products/create"> Add Product </a></li>
                     </ul>
                 </li>
             </ul>
