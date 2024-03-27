@@ -6,7 +6,7 @@
             <div class="col">
                 <div class="mt-5">
                     <h4 class="card-title float-left mt-2">Category List</h4>
-                    <a href="/category/create" class="btn btn-Info float-right veiwbutton mt-2 text-white">Add new
+                    <a href="/categories/create" class="btn btn-Info float-right veiwbutton mt-2 text-white">Add new
                         category</a>
 
                 </div>
